@@ -1,0 +1,19 @@
+:root {
+  --font-family-system:
+    system-ui, -apple-system, "Segoe UI", roboto, "Helvetica Neue", helvetica,
+    sans-serif;
+}
+
+/* это просто пример, пока шрифты мы не подключали */
+
+@font-face {
+  font-family: Mulish;
+  font-weight: 600;
+  src: url("../../../../public/fonts/Mulish-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: Mulish;
+  font-weight: 400;
+  src: url("../../../../public/fonts//Mulish-Regular.ttf");
+}
