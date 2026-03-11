@@ -1,0 +1,6 @@
+.navbar{
+    height: 100%;
+
+    box-shadow: 7px -1px 12px 0px var(--color-black);
+    opacity: 0.1;
+}
