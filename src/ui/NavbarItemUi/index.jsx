@@ -1,6 +1,8 @@
+import styles from "./styles/index.module.css"
+
 export const NavbarItemUi = ({item}) => {
-    return(<li>
-        <item.icon/>
-        <p>{item.title}</p>
-    </li>);
+    return(<div className={styles.item}>
+            <item.icon/>
+            <p>{item.title}</p>
+        </div>);
 }
